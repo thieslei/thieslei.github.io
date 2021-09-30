@@ -40,12 +40,12 @@ header {
 
 header section {
   margin: 0 auto;
-  max-width: 640px;
+  max-width: 940px;
 }
 
 header img {
-  border-radius: 50%;
-  max-width: 250px;
+  border-radius: 20%;
+  max-width: 270px;
 }
 
 h1 {
@@ -67,6 +67,19 @@ main {
 
 main section:not(:last-child) {
   border-bottom: 1px solid #ccc;
+}
+
+ppp {
+  font-size: 1.5em;
+  width: 4.5em;
+  height: 4.5em;
+/*  
+  line-height: 1.5em; 
+  border: 1px solid white;
+  border-radius: 50%;
+*/
+  margin: 8px;
+  text-align: center;
 }
 
 .fab {
